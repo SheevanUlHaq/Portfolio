@@ -505,7 +505,7 @@
   gap: 1rem;
 }
 .all-skills img {
-  max-width: 80px;
+  width: 80px;
 }
 .faded-text-skill {
   position: absolute;

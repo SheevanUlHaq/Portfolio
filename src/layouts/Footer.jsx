@@ -5,9 +5,9 @@ export const Footer = () => {
     <footer className="border-t border-border/50 mt-20">
       <div className="container mx-auto px-6 py-8">
         {/* Top Row */}
-        <div className="grid grid-cols-3 items-center">
+        <div className="flex flex-col md:grid md:grid-cols-3 gap-6 md:gap-0 items-center">
           {/* Logo */}
-          <div className="justify-self-start">
+          <div className="md:justify-self-start">
             <a
               href="#"
               className="text-2xl font-bold tracking-tight hover:text-primary transition-colors"
@@ -17,7 +17,7 @@ export const Footer = () => {
           </div>
 
           {/* Navigation */}
-          <nav className="flex justify-center gap-6 text-sm text-muted-foreground">
+          <nav className="flex flex-wrap justify-center gap-4 md:gap-6 text-sm text-muted-foreground">
             <a href="#about" className="hover:text-primary transition-colors">
               About
             </a>
@@ -42,7 +42,7 @@ export const Footer = () => {
           </nav>
 
           {/* Social Links */}
-          <div className="flex justify-end items-center gap-5">
+          <div className="flex items-center gap-5 md:justify-end">
             <a
               href="https://github.com/SheevanUlHaq"
               target="_blank"

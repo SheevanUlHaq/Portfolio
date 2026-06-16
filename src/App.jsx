@@ -1,4 +1,5 @@
 import { Navbar } from "@/layouts/Navbar";
+import { Footer } from "@/layouts/Footer";
 import { Hero } from "@/sections/Hero";
 import { About } from "@/sections/About";
 import { Projects } from "@/sections/Projects";
@@ -18,6 +19,7 @@ function App() {
         <Testimonials />
         <Contact />
       </main>
+      <Footer />
     </div>
   );
 }

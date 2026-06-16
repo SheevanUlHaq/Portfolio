@@ -1,5 +1,3 @@
-export const Testimonials = ()=>{
-    return(
-        <section>Testimonias</section>
-    );
-}
+export const Testimonials = () => {
+  return <section></section>;
+};

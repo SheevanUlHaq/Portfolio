@@ -1,6 +1,6 @@
 const experiences = [
   {
-    period: "2025 - Present",
+    period: "2024-2027",
     role: "MCA Student",
     company: "NIT Bhopal",
     description:
@@ -9,11 +9,11 @@ const experiences = [
     current: true,
   },
   {
-    period: "2025",
+    period: "2026",
     role: "Full Stack Developer",
-    company: "CampusBid Project",
+    company: "MediConnect Project",
     description:
-      "Developed a full-stack online auction platform with user authentication, bidding functionality, and real-time auction management.",
+      "Developed a full-stack doctor appointment booking system with secure authentication, role-based access control, online payment integration, appointment management, and admin/doctor dashboards using the MERN stack.",
     technologies: ["React", "Node.js", "Express", "MongoDB"],
     current: false,
   },
